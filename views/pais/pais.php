@@ -1,6 +1,6 @@
 <?php 
-
-    include ('../../libs/security.php');
+     session_start();
+   // include ('../../libs/security.php');
     include ('../layouts/header.php');
     include ('../../libs/adodb5/adodb-pager.inc.php');
     include ('../../libs/adodb5/adodb.inc.php');
@@ -92,7 +92,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
    
-
-<?php $funErrores->alertErrores($equipoC); ?> 
+<?php $funErrores->alertErrores($paisC); ?> 
 <?php include ('../layouts/footer.php'); ?>   
 <?php
