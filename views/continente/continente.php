@@ -18,7 +18,7 @@
 ?>	
 	<br/><br/>
 	<div class="row">
-	 <body background="fifa.jpg">
+	 <body background="blue.jpg">
 		<div class="col-md-6">
           <label>FORMULARIO CONTINENTE</label>
           <div class="row">
