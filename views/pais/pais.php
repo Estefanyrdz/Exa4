@@ -1,6 +1,6 @@
 <?php 
-     session_start();
-   // include ('../../libs/security.php');
+   
+    include ('../../libs/security.php');
     include ('../layouts/header.php');
     include ('../../libs/adodb5/adodb-pager.inc.php');
     include ('../../libs/adodb5/adodb.inc.php');
@@ -69,7 +69,8 @@
                 </div>
                 <div class="form-group" id="integer" name="integer">
                   <label for="nombre">ID CONTINENTE:</label>
-                  <input type="text" class="form-control" id="idcontinente" name="idcontinente" placeholder="id continente">
+                  <label for="exampleInputEmail1">Continente: </label>
+                       <?php echo $paisC->getDropDown ('continente', 'idcontinente','idcontinente'); ?>
                    
                 </div>
                       <label for="">Agregar bandera:</label>
