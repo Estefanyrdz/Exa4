@@ -10,8 +10,7 @@
 			//$int = new Integrante();
 			$this->set_nombre($datos['nombre']); 
 		    $this->set_idequipo($datos['idequipo']); 
-		    $this->set_apellido($datos['apellido']); 
-		     //$this->set_idequipo($datos['id']); 
+		    $this->set_apellido($datos['apellido']);  
 		    $this->set_peso($datos['peso']); 
 		    $this->set_edad($datos['edad']); 
 		    $this->set_estatura($datos['estatura']); 

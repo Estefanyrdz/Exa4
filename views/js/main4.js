@@ -29,7 +29,7 @@ $(document).ready(function() {
 						message: 'La abreviatura de la posicion no es válida',
 						validators: {
 							notEmpty: {
-								message: 'Es necesario la abreviaturade la posicion y no puede estar vacía'
+								message: 'Es necesario la abreviatura de la posicion y no puede estar vacía'
 							},
 							stringLength: {
 								min: 1,

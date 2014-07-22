@@ -81,8 +81,8 @@ class Er {
 		} 
 	}
 	public function valida_apellido($valor){
-		$exp_reg = '/^([a-zA-Z üÜáéíóúÁÉÍÓÚñÑ]{1,50})*$/'; 
-		if (preg_match($exp_reg, $valor)) {
+			$exp_reg = '/^[a-zA-Z, ,_]*$/';
+	if (preg_match($exp_reg, $valor)) {
 		     return true;
 		} else { 
 		     return false;
