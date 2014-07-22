@@ -50,7 +50,7 @@ $(document).ready(function() {
 								message: 'El nombre del equipo debe ser mayor de 2 y menos de 48 caracteres de largo'
 							},
 							regexp: {
-								regexp: /^[a-zA-Z]*$/,
+								regexp: '/^[a-zA-Z, ,_]*$/',
 								message: 'El nombre del equipo sólo puede consistir en alfabético'
 							},
 						}

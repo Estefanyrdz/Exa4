@@ -47,11 +47,8 @@
 				<a class="fancybox fancybox.iframe" href="listaequipo.php">Mostrar Lista de Equipos</a>
 				</button>
 			</div>
-
 		</div>
 		<div class="col-md-2">
 		</div>
-			
-
 </div>
 <?php include ('../layouts/footer.php'); ?>
