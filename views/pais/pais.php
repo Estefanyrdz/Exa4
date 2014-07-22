@@ -1,6 +1,6 @@
 <?php 
-   session_start();
-    //include ('../../libs/security.php');
+ 
+    include ('../../libs/security.php');
     include ('../layouts/header.php');
     include ('../../libs/adodb5/adodb-pager.inc.php');
     include ('../../libs/adodb5/adodb.inc.php');
