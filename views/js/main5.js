@@ -24,24 +24,6 @@
 							},
 						}
 					},
-					apellido: {
-						message: 'El apellido del integrante no es válido',
-						validators: {
-							notEmpty: {
-								message: 'Es necesario el apellido del integrante y no puede estar vacío'
-							},
-							stringLength: {
-								min: 2,
-								max: 48,
-								message: 'El apellido del integrante debe ser mayor de 2 y menos de 48 caracteres de largo'
-							},
-							regexp: {
-								regexp: /^[a-zA-Z]*$/,
-								message: 'El apellido del integrante sólo puede consistir en alfabético'
-							},
-						}
-					},
-				}
-			});
+					
 			
 		});		

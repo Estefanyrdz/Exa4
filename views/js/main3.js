@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-			$('#pais').bootstrapValidator({
+			$('#formulari').bootstrapValidator({
 				message: 'Este valor no es válido',
 				feedbackIcons: {
 					valid: 'glyphicon glyphicon-ok',

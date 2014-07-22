@@ -1,5 +1,5 @@
 <?php 
-  define('BASEURL','http:/ExamenFinal');
+  define('BASEURL','http:/Exa4');
 ?>
 <!DOCTYPE html>
 <html lang="en">

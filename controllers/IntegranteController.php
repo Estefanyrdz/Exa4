@@ -1,12 +1,12 @@
 <?php
 	class IntegranteController extends Integrante{
-		
+
 		public $muestra_errores = false;
 		function __construct(){
 			 parent::Integrante();
 		}
 		public function insertaIntegrante($datos){
-		
+
 			//$int = new Integrante();
 			$this->set_nombre($datos['nombre']); 
 		    $this->set_idequipo($datos['idequipo']); 
@@ -22,7 +22,7 @@
 		   }else{
 		   	$this->inserta($this->get_atributos()); 
 		   }
-		  
+
 		}
 		public function validaUsuario($datos){
 			$rs = $this->consulta_sql(" select * from usuarios where email = '".$datos['email']."'  ");
@@ -38,7 +38,7 @@
 	     		$this->muestra_errores = true;
 	     		$this->errores[] = 'este email no existe';
 	     	}
-			
+
 		}
 
 		public function iniciarSesion($rol,$email){
